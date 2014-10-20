@@ -16,16 +16,12 @@
         },
         "aspnetcore50": {
             "dependencies": {
+                "Microsoft.Framework.Logging.Interfaces": { "version": "1.0.0-*", "type": "build" },
                 "System.Collections.Concurrent": "4.0.0-beta-*",
-                "System.Collections": "4.0.10-beta-*",
                 "System.Diagnostics.TraceSource": "4.0.0-beta-*",
                 "System.Globalization": "4.0.10-beta-*",
-                "System.Runtime": "4.0.20-beta-*",
-                "System.Runtime.Extensions": "4.0.10-beta-*",
-                "System.Runtime.InteropServices": "4.0.20-beta-*",
                 "System.Linq": "4.0.0-beta-*",
-                "System.Threading": "4.0.0-beta-*",
-                "Microsoft.Framework.Logging.Interfaces": { "version": "1.0.0-*", "type": "build" }
+                "System.Threading": "4.0.0-beta-*"
             }
         },
         ".NETPortable,Version=v4.6,Profile=Profile151": {
@@ -33,13 +29,12 @@
                 "Microsoft.Framework.Logging.Interfaces": "1.0.0-*"
             },
             "frameworkAssemblies": {
-                "System.Globalization": "",
-                "System.Runtime": "",
-                "System.Runtime.Extensions": "",
-                "System.Runtime.InteropServices": "",
-                "System.Linq": "",
                 "System.Collections": "",
-                "System.Threading": ""
+                "System.Globalization": "",
+                "System.Linq": "",
+                "System.Runtime.Extensions": "",
+                "System.Threading": "",
+                "System.Threading.Tasks": ""
             }
         }
     }

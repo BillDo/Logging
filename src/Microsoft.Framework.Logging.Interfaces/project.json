@@ -9,17 +9,12 @@
         },
         "aspnetcore50": {
             "dependencies": {
-                "Microsoft.Framework.Runtime.Interfaces": { "version": "1.0.0-*", "type": "build" },
-                "System.Runtime": "4.0.20-beta-*",
-                "System.Runtime.Extensions": "4.0.10-beta-*",
-                "System.Runtime.InteropServices": "4.0.20-beta-*"
+                "Microsoft.Framework.Runtime.Interfaces": { "version": "1.0.0-*", "type": "build" }
             }
         },
         ".NETPortable,Version=v4.6,Profile=Profile151": {
             "frameworkAssemblies": {
-                "System.Globalization": "",
-                "System.Runtime": "",
-                "System.Runtime.InteropServices": ""
+                "System.Runtime": ""
             }
         }
     }
